@@ -1,0 +1,129 @@
+/* body {
+    padding: 0;
+    margin: 0;
+}
+
+.lent img {
+    max-width: 100%;
+}
+
+.lent div {
+    width: 100vw;
+}
+
+.lent {
+    display: flex;
+    flex-flow: row;
+    position: relative;
+    transition: .5s all;
+    right: 0;
+}
+
+.frame {
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.fa-chevron-left {
+    font-size: 50px;
+    position: absolute;
+    color: whitesmoke;
+    left: 2%;
+    top:40%;
+    cursor: pointer;
+}
+.fa-chevron-right {
+    font-size: 50px;
+    position: absolute;
+    color: whitesmoke;
+    right: 2%;
+    top:40%;
+    cursor: pointer;
+}
+.dots{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+
+li{
+    margin: 0 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    position: relative;
+    border: 1.5px solid white;
+}
+
+.active{
+    background: white;
+} */
+
+body {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    height: 350px;
+    margin-top: 50px;
+}
+
+.lent img {
+    max-width: 100%;
+    position: absolute;
+    height: 350px;
+    display: none;
+}
+
+.lent {
+    transition: .5s all;
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+
+.frame {
+    width: 1000px;
+    overflow: hidden;
+    position: relative;
+    height: 350px;
+}
+
+.fa-chevron-left {
+    font-size: 50px;
+    position: absolute;
+    color: whitesmoke;
+    left: 2%;
+    top: 40%;
+    cursor: pointer;
+}
+
+.fa-chevron-right {
+    font-size: 50px;
+    position: absolute;
+    color: whitesmoke;
+    right: 2%;
+    top: 40%;
+    cursor: pointer;
+}
+
+.active {
+    display: block !important;
+}
+
+p {
+    color: red;
+    font-size: 20px;    
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
